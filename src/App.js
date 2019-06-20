@@ -1,14 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {connect} from 'react-redux';
 import NavBar from './components/Navbar/Nav';
-import Hotels from './components/Hotels';
+import HotelsContainer from './containers/HotelsContainer';
 import Hotel from './components/Hotel';
+import {setHotels} from './store/actions';
 
 import './App.css';
 
-function App() {
+function App({dispatch}) {
 
-  console.log('fetching ..');
+  dispatch(setHotels());
 
   return (
     <Router>
@@ -16,7 +18,7 @@ function App() {
         <NavBar />
 
         <Switch>
-          <Route path="/" exact component={Hotels} />
+          <Route path="/" exact component={HotelsContainer} />
           <Route path="/hotels/:id" component={Hotel} />
         </Switch>
       </div>
@@ -24,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default connect()(App);
