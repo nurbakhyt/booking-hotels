@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import {connect} from 'react-redux';
 import NavBar from './components/Navbar/Nav';
 import HotelsContainer from './containers/HotelsContainer';
-import Hotel from './components/Hotel';
+import HotelContainer from './containers/HotelContainer';
 import {setHotels} from './store/actions';
 
 import './App.css';
@@ -17,10 +17,12 @@ function App({dispatch}) {
       <div className="app">
         <NavBar />
 
-        <Switch>
-          <Route path="/" exact component={HotelsContainer} />
-          <Route path="/hotels/:id" component={Hotel} />
-        </Switch>
+        <main className="container">
+          <Switch>
+            <Route path="/" exact component={HotelsContainer} />
+            <Route path="/hotels/:id" component={HotelContainer} />
+          </Switch>
+        </main>
       </div>
     </Router>
   );
