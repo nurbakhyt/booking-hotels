@@ -6,7 +6,7 @@ import HotelsContainer from './containers/HotelsContainer';
 import HotelContainer from './containers/HotelContainer';
 import {setHotels} from './store/actions';
 
-import './App.css';
+import './App.scss';
 
 function App({dispatch}) {
 
