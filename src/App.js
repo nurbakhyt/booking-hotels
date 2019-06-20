@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import NavBar from './components/Navbar/Nav';
+import Hotels from './components/Hotels';
+import Hotel from './components/Hotel';
+
 import './App.css';
 
 function App() {
+
+  console.log('fetching ..');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app">
+        <NavBar />
+
+        <Switch>
+          <Route path="/" exact component={Hotels} />
+          <Route path="/hotels/:id" component={Hotel} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
