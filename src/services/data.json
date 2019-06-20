@@ -14,27 +14,27 @@
     },
     {
       "id": 2,
-      "name": "Отель Бородино",
-      "stars": 4,
+      "name": "Boutique Hotel Albora",
+      "stars": 5,
       "images": [
-        "https://r-cf.bstatic.com/images/hotel/max1024x768/544/54495018.jpg",
-        "https://r-cf.bstatic.com/images/hotel/max1024x768/143/143533045.jpg",
-        "https://r-cf.bstatic.com/images/hotel/max1024x768/961/96111887.jpg"
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/170/170295909.jpg",
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/178/178853678.jpg",
+        "https://r-cf.bstatic.com/images/hotel/max1024x768/198/198066982.jpg"
       ],
-      "description": "Этот отель, оформленный в стиле ренессанс, расположен в Москве, в 10 минутах ходьбы от красивого парка Сокольники и станции метро «Красносельская» и в 10 минутах езды на метро от Кремля.",
-      "city": "Москва"
+      "description": "Бутик-отель Albora расположен в Санкт-Петербурге, в 700 м от Мариинского театра.",
+      "city": "Санкт-Петербург"
     },
     {
       "id": 3,
-      "name": "Дизайн Отель Сенатор",
-      "stars": 4,
+      "name": "Solo Sokos Hotel Palace Bridge",
+      "stars": 5,
       "images": [
-        "https://r-cf.bstatic.com/images/hotel/max1024x768/195/195110536.jpg",
-        "https://r-cf.bstatic.com/images/hotel/max1024x768/195/195110236.jpg",
-        "https://r-cf.bstatic.com/images/hotel/max1024x768/196/196597357.jpg"
+        "https://r-cf.bstatic.com/images/hotel/max1024x768/100/100627788.jpg",
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/447/4472614.jpg",
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/201/201233113.jpg"
       ],
-      "description": "Дизайн-отель «Сенатор в Москве» расположен в 1,4 км от мавзолея Ленина. К услугам гостей общий лаундж и бесплатный Wi-Fi. Этот отель с баром расположен в Центральном районе. Расстояние до ГУМа составляет 1,4 км.",
-      "city": "Москва"
+      "description": "Этот отель с wellness-центром расположен на Васильевском острове, в 15 минутах ходьбы от Государственного Эрмитажа и Невского проспекта.",
+      "city": "Санкт-Петербург"
     },
     {
       "id": 4,
@@ -62,15 +62,15 @@
     },
     {
       "id": 6,
-      "name": "City Hotel 1905",
-      "stars": 4,
+      "name": "Эрмитаж - официальная гостиница государственного музея",
+      "stars": 5,
       "images": [
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/163/163362143.jpg",
-        "https://r-cf.bstatic.com/images/hotel/max1024x768/190/190480293.jpg",
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/163/163360381.jpg"
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/209/20954791.jpg",
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/188/188217643.jpg",
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/186/186871794.jpg"
       ],
-      "description": "Отель City 1905 расположен в Москве, в 5 км от Музея изобразительных искусств имени А. С. Пушкина и улицы Арбат.",
-      "city": "Москва"
+      "description": "Этот эксклюзивный 5-звездочный отель находится в центре Санкт-Петербурга, в здании особняка, построенного в 30-х годах 19 века. В помещениях отеля царит подлинная атмосфера музея Эрмитаж.",
+      "city": "Санкт-Петербург"
     },
     {
       "id": 7,
@@ -86,15 +86,15 @@
     },
     {
       "id": 8,
-      "name": "Гостиница Интурист Коломенское",
+      "name": "Отель Санкт-Петербург",
       "stars": 4,
       "images": [
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/579/57995109.jpg",
-        "https://r-cf.bstatic.com/images/hotel/max1024x768/278/27889098.jpg",
-        "https://r-cf.bstatic.com/images/hotel/max500/179/179501060.jpg"
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/167/167400707.jpg",
+        "https://r-cf.bstatic.com/images/hotel/max1024x768/154/154756627.jpg",
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/154/154476212.jpg"
       ],
-      "description": "Гостиница «Интурист Коломенское» расположена в Москве, в 1,7 км от станции метро «Каширская». Гостям предлагают бесплатный трансфер от метро до гостиницы.",
-      "city": "Москва"
+      "description": "К услугам гостей этого отеля просторные номера с прекрасным видом на Санкт-Петербург и Неву. Отель расположен в центре города, на Пироговской набережной.",
+      "city": "Санкт-Петербург"
     },
     {
       "id": 9,
@@ -110,52 +110,52 @@
     },
     {
       "id": 10,
-      "name": "Отель Садовническая",
-      "stars": 5,
+      "name": "Holiday Inn Express",
+      "stars": 4,
       "images": [
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/111/111882596.jpg",
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/138/138422842.jpg",
-        "https://r-cf.bstatic.com/images/hotel/max1024x768/136/136800349.jpg"
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/160/160582871.jpg",
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/180/180991973.jpg",
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/160/160583036.jpg"
       ],
-      "description": "Отель «Садовническая» расположен в Москве, в 1,3 км от Красной площади и собора Василия Блаженного.",
-      "city": "Москва"
+      "description": "Отель Holiday Inn Express - St. Petersburg - Sadovaya расположен в здании XVIII века в Санкт-Петербурге, в 10 минутах ходьбы от Мариинского театра и в 10 минутах езды от Дворцовой площади и Эрмитажа.",
+      "city": "Санкт-Петербург"
     },
 
     {
       "id": 11,
-      "name": "Boutique Hotel Albora",
-      "stars": 5,
+      "name": "Отель Бородино",
+      "stars": 4,
       "images": [
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/170/170295909.jpg",
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/178/178853678.jpg",
-        "https://r-cf.bstatic.com/images/hotel/max1024x768/198/198066982.jpg"
+        "https://r-cf.bstatic.com/images/hotel/max1024x768/544/54495018.jpg",
+        "https://r-cf.bstatic.com/images/hotel/max1024x768/143/143533045.jpg",
+        "https://r-cf.bstatic.com/images/hotel/max1024x768/961/96111887.jpg"
       ],
-      "description": "Бутик-отель Albora расположен в Санкт-Петербурге, в 700 м от Мариинского театра.",
-      "city": "Санкт-Петербург"
+      "description": "Этот отель, оформленный в стиле ренессанс, расположен в Москве, в 10 минутах ходьбы от красивого парка Сокольники и станции метро «Красносельская» и в 10 минутах езды на метро от Кремля.",
+      "city": "Москва"
     },
     {
       "id": 12,
-      "name": "Solo Sokos Hotel Palace Bridge",
-      "stars": 5,
+      "name": "Дизайн Отель Сенатор",
+      "stars": 4,
       "images": [
-        "https://r-cf.bstatic.com/images/hotel/max1024x768/100/100627788.jpg",
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/447/4472614.jpg",
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/201/201233113.jpg"
+        "https://r-cf.bstatic.com/images/hotel/max1024x768/195/195110536.jpg",
+        "https://r-cf.bstatic.com/images/hotel/max1024x768/195/195110236.jpg",
+        "https://r-cf.bstatic.com/images/hotel/max1024x768/196/196597357.jpg"
       ],
-      "description": "Этот отель с wellness-центром расположен на Васильевском острове, в 15 минутах ходьбы от Государственного Эрмитажа и Невского проспекта.",
-      "city": "Санкт-Петербург"
+      "description": "Дизайн-отель «Сенатор в Москве» расположен в 1,4 км от мавзолея Ленина. К услугам гостей общий лаундж и бесплатный Wi-Fi. Этот отель с баром расположен в Центральном районе. Расстояние до ГУМа составляет 1,4 км.",
+      "city": "Москва"
     },
     {
       "id": 13,
-      "name": "Эрмитаж - официальная гостиница государственного музея",
-      "stars": 5,
+      "name": "City Hotel 1905",
+      "stars": 4,
       "images": [
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/209/20954791.jpg",
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/188/188217643.jpg",
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/186/186871794.jpg"
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/163/163362143.jpg",
+        "https://r-cf.bstatic.com/images/hotel/max1024x768/190/190480293.jpg",
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/163/163360381.jpg"
       ],
-      "description": "Этот эксклюзивный 5-звездочный отель находится в центре Санкт-Петербурга, в здании особняка, построенного в 30-х годах 19 века. В помещениях отеля царит подлинная атмосфера музея Эрмитаж.",
-      "city": "Санкт-Петербург"
+      "description": "Отель City 1905 расположен в Москве, в 5 км от Музея изобразительных искусств имени А. С. Пушкина и улицы Арбат.",
+      "city": "Москва"
     },
     {
       "id": 14,
@@ -183,15 +183,15 @@
     },
     {
       "id": 16,
-      "name": "Отель Санкт-Петербург",
+      "name": "Гостиница Интурист Коломенское",
       "stars": 4,
       "images": [
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/167/167400707.jpg",
-        "https://r-cf.bstatic.com/images/hotel/max1024x768/154/154756627.jpg",
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/154/154476212.jpg"
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/579/57995109.jpg",
+        "https://r-cf.bstatic.com/images/hotel/max1024x768/278/27889098.jpg",
+        "https://r-cf.bstatic.com/images/hotel/max500/179/179501060.jpg"
       ],
-      "description": "К услугам гостей этого отеля просторные номера с прекрасным видом на Санкт-Петербург и Неву. Отель расположен в центре города, на Пироговской набережной.",
-      "city": "Санкт-Петербург"
+      "description": "Гостиница «Интурист Коломенское» расположена в Москве, в 1,7 км от станции метро «Каширская». Гостям предлагают бесплатный трансфер от метро до гостиницы.",
+      "city": "Москва"
     },
     {
       "id": 17,
@@ -231,15 +231,15 @@
     },
     {
       "id": 20,
-      "name": "Holiday Inn Express",
-      "stars": 4,
+      "name": "Отель Садовническая",
+      "stars": 5,
       "images": [
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/160/160582871.jpg",
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/180/180991973.jpg",
-        "https://q-cf.bstatic.com/images/hotel/max1024x768/160/160583036.jpg"
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/111/111882596.jpg",
+        "https://q-cf.bstatic.com/images/hotel/max1024x768/138/138422842.jpg",
+        "https://r-cf.bstatic.com/images/hotel/max1024x768/136/136800349.jpg"
       ],
-      "description": "Отель Holiday Inn Express - St. Petersburg - Sadovaya расположен в здании XVIII века в Санкт-Петербурге, в 10 минутах ходьбы от Мариинского театра и в 10 минутах езды от Дворцовой площади и Эрмитажа.",
-      "city": "Санкт-Петербург"
+      "description": "Отель «Садовническая» расположен в Москве, в 1,3 км от Красной площади и собора Василия Блаженного.",
+      "city": "Москва"
     }
   ]
 }
