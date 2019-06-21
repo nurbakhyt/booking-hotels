@@ -14,7 +14,9 @@ class HotelCard extends Component {
           <span className="card__city">{hotel.city}</span>
         </div>
         <div className="card-content">
-          <h2 className="card__name">{hotel.name}</h2>
+          <Link to={`/hotels/${hotel.id}`} className="card__name">
+            {hotel.name}
+          </Link>
           <p className="card__description">{hotel.description}</p>
           <Link to={`/hotels/${hotel.id}`} className="card__link" title={`Забронировать ${hotel.name}`}>Забронировать</Link>
         </div>

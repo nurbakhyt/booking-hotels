@@ -1,17 +1,28 @@
+@import "../../vars";
+
 .card {
+    border-radius: .6em;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.2);
     display: flex;
     margin-bottom: 1em;
-    padding-top: 1em;
+    padding: 1em;
+
+    &:hover,
+    &:focus {
+        box-shadow: 0 2px 3px rgba(34, 25, 25, 0.3);
+    }
 
     &__image {
         width: 100%;
     }
 
     &__name {
+        display: block;
         font-size: 1.5em;
         font-weight: 300;
         margin-top: 0;
         margin-bottom: .5em;
+        text-decoration: none;
     }
 
     &__description {
@@ -21,15 +32,15 @@
 
     &__link {
         background-color: #fff;
-        color: #060b34;
-        border: 1px solid #060b34;
+        color: $primary-color;
+        border: 1px solid $primary-color;
         border-radius: .5em;
         display: inline-block;
         padding: 0.5em 1.5em;
         text-decoration: none;
 
         &:hover, &:focus {
-            background-color: #060b34;
+            background-color: $primary-color;
             color: #fff;
         }
     }
