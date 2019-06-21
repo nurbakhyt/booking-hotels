@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import {connect} from 'react-redux';
 import NavBar from './components/Navbar/Nav';
+import FooterBar from './components/Footer/FooterBar';
 import HotelsContainer from './containers/HotelsContainer';
 import HotelContainer from './containers/HotelContainer';
 import {setHotels} from './store/actions';
@@ -23,6 +24,8 @@ function App({dispatch}) {
             <Route path="/hotels/:id" component={HotelContainer} />
           </Switch>
         </main>
+
+        <FooterBar/>
       </div>
     </Router>
   );

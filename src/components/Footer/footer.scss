@@ -1,0 +1,20 @@
+@import "../../vars";
+
+.app-footer {
+  border-top: 1px solid #bbb;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+
+  &__item {
+    color: $primary-color;
+    cursor: pointer;
+    font-weight: 300;
+    padding: 1em 0.5em;
+    text-decoration: none;
+
+    &--brand {
+      font-weight: 400;
+    }
+  }
+}
