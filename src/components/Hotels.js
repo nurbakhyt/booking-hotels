@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Card from './Hotels/Card';
+import SearchBar from '../containers/SearchBarContainer';
 
 class Hotels extends Component {
   render() {
@@ -11,6 +12,8 @@ class Hotels extends Component {
 
     return (
       <section className="page">
+        <SearchBar/>
+
         <h1 className="page__title">Все отели: <small>{count}</small></h1>
 
         {cards}

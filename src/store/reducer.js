@@ -1,13 +1,13 @@
-
 import {
   SET_HOTELS,
-  VIEW_HOTEL
+  VIEW_HOTEL,
+  SEARCH
 } from './actions';
 
 const initialState = {
   hotels: [],
   viewing: null,
-  cities: []
+  search_key: ''
 };
 
 function booking(state = initialState, action = {}) {
@@ -21,6 +21,11 @@ function booking(state = initialState, action = {}) {
       return {
         ...state,
         viewing: action.id
+      };
+    case SEARCH:
+      return {
+        ...state,
+        search_key: action.key
       };
     default:
       return state;
