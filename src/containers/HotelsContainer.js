@@ -1,9 +1,20 @@
 import {connect} from 'react-redux';
 import Hotels from '../components/Hotels';
 
+function searchByCity(hotels, key) {
+  return hotels.filter(hotel => hotel.city.toLowerCase().includes(key.toLowerCase()));
+}
+
+function searchByHotel(hotels, key) {
+  return hotels.filter(hotel => hotel.name.toLowerCase().includes(key.toLowerCase()) && !hotel.city.toLowerCase().includes(key.toLowerCase()));
+}
+
 function getSearchResult(hotels, key) {
   if (key.length > 0) {
-    return hotels.filter(hotel => hotel.city.toLowerCase() === key.toLowerCase());
+    return [
+      ...searchByHotel(hotels, key),
+      ...searchByCity(hotels, key)
+    ];
   }
 
   return hotels;
