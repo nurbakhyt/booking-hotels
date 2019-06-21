@@ -20,7 +20,8 @@ function booking(state = initialState, action = {}) {
     case VIEW_HOTEL:
       return {
         ...state,
-        viewing: action.id
+        viewing: action.id,
+        search_key: ''
       };
     case SEARCH:
       return {

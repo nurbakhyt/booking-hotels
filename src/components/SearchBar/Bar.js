@@ -36,6 +36,7 @@ class SearchBar extends Component {
           autoComplete="off"
           placeholder="Город или отель"
           onChange={this.handleChange}
+          value={this.state.key}
         />
         <button type="submit"className="search-bar__btn">Найти</button>
       </form>
