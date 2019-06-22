@@ -2,10 +2,17 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import './card.scss';
 import CardMedia from './CardMedia';
+import Booking from './Booking';
 
 class HotelCard extends Component {
   render() {
-    const {hotel} = this.props;
+    const {hotel, expanded} = this.props;
+
+    let actions = <Link to={`/hotels/${hotel.id}`} className="card__link" title={`Забронировать ${hotel.name}`}>Забронировать</Link>;
+
+    if (expanded) {
+      actions = <Booking hotel={hotel}/>;
+    }
 
     return (
       <article className="card">
@@ -17,11 +24,17 @@ class HotelCard extends Component {
             {hotel.name}
           </Link>
           <p className="card__description">{hotel.description}</p>
-          <Link to={`/hotels/${hotel.id}`} className="card__link" title={`Забронировать ${hotel.name}`}>Забронировать</Link>
+
+          {actions}
+
         </div>
       </article>
     );
   }
 }
+
+HotelCard.defaultProps = {
+  expanded: false
+};
 
 export default HotelCard;
