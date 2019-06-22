@@ -6,6 +6,7 @@ import 'moment/locale/ru';
 import './booking.scss';
 import moment from 'moment';
 import Message from './Message';
+import PropTypes from 'prop-types';
 
 class Booking extends Component {
 
@@ -72,5 +73,16 @@ class Booking extends Component {
     );
   }
 }
+
+Booking.propTypes = {
+  hotel: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    city: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    images: PropTypes.arrayOf(PropTypes.string.isRequired),
+    stars: PropTypes.number.isRequired
+  }).isRequired
+};
 
 export default Booking;

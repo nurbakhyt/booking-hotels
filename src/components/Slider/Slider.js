@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import './slider.scss';
 
 class Slider extends Component {
@@ -49,5 +50,16 @@ class Slider extends Component {
     );
   }
 }
+
+Slider.propTypes = {
+  hotel: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    city: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    images: PropTypes.arrayOf(PropTypes.string.isRequired),
+    stars: PropTypes.number.isRequired
+  }).isRequired
+};
 
 export default Slider;
