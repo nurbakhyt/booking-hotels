@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {viewHotel} from '../store/actions';
+import HotelCard from './Hotels/Card';
 
 class Hotel extends Component {
 
@@ -19,13 +20,11 @@ class Hotel extends Component {
   }
 
   render() {
-    const hotelName = this.state.hotel ? this.state.hotel.name : 'Не найдено';
     const existed = !!this.state.hotel;
 
     return (
       <section className="page">
-        <h1 className="page__title">{hotelName}</h1>
-        <p>{existed && this.state.hotel.description}</p>
+        {existed && <HotelCard hotel={this.state.hotel} expanded/>}
       </section>
     );
   }

@@ -1,0 +1,38 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-image {
+
+  &__img {
+    width: 100%;
+  }
+}
+
+.slider-thumbs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  &__thumb {
+    cursor: pointer;
+    flex: 0 0 33%;
+    padding: 0 2px;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
