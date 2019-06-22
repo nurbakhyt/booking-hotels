@@ -14,7 +14,7 @@ class Hotels extends Component {
       <section className="page">
         <SearchBar/>
 
-        <h1 className="page__title">Все отели: <small>{count}</small></h1>
+        <h2 className="page__title">Все отели: {count}</h2>
 
         {cards}
       </section>

@@ -2,19 +2,19 @@
 
 .search-bar {
   background-color: $primary-color;
+  border-radius: .4em;
   box-shadow: 0 1px 3px rgba(34, 25, 25, 0.2);
-  border-radius: .6em;
   display: flex;
-  padding: .5em;
+  padding: .25em;
 
   &__input {
     border: none;
     border-bottom-left-radius: 0.25em;
     border-top-left-radius: 0.25em;
     flex: 1 1 auto;
-    font-size: 1.25em;
+    font-size: 1em;
     line-height: 1.5;
-    padding: .5em 1em;
+    padding: .5em .75em;
     width: 70%;
   }
 
@@ -26,11 +26,27 @@
     color: $primary-color;
     cursor: pointer;
     flex: 0 0 auto;
-    font-size: 1.25em;
+    font-size: 1em;
     width: 30%;
 
     &:hover, &:focus {
       background-color: #aadcff;
+    }
+  }
+}
+
+@media (min-width: $sm-width) {
+  .search-bar {
+    border-radius: .5em;
+    padding: .5em;
+
+    &__input {
+      font-size: 1.25em;
+      padding: .5em 1em;
+    }
+
+    &__btn {
+      font-size: 1.25em;
     }
   }
 }

@@ -1,11 +1,42 @@
+@import "vars";
+
 .container {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: .755em;
+  padding-right: .75em;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .page {
-
   &__title {
+    font-size: 1em;
     font-weight: 400;
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+}
+
+@media (min-width: $sm-width) {
+  .container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .page {
+    &__title {
+      font-size: 1.25em;
+    }
+  }
+}
+
+@media (min-width: $md-width) {
+  .container {
+    width: 680px;
+  }
+}
+
+@media (min-width: $lg-width) {
+  .container {
+    width: 800px;
   }
 }
